@@ -1,0 +1,16 @@
+{
+  "name": "logispin_assessment",
+  "version": "1.0.0",
+  "description": "Test different environments",
+  "main": "index.ts",
+  "scripts": {
+    "cy:run:prod": "npx cypress run --env ENV=production",
+    "cy:run:stage": "npx cypress run --env ENV=staging"
+  },
+  "author": "Aniekan Umoh",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.0",
+    "typescript": "^5.1.6"
+  }
+}
